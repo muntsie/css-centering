@@ -1,0 +1,41 @@
+#splash{
+    height:100%;
+    margin:auto;
+    text-align: center;
+    width:100%;
+}
+/* the first img container */
+#z1{
+	display: inline;
+    padding:0 2px 0 2px;
+    text-align: center;
+    width:auto;
+}
+/* other img containers */
+.sO{
+	display:inline;
+    padding-right:2px;
+    text-align: center;
+    width:auto;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 460px){
+/* set first img container to block */
+#z1{
+    display: block;
+    margin:0;
+    padding:0;
+    text-align:center;
+    width:100%;
+}
+/* set other img containers to block and align center */
+.sO{
+    display: block;
+    margin:0;
+    padding:0;
+    text-align:center;
+    width:100%;
+}
+}
